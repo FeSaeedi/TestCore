@@ -31,8 +31,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Dapper", "Core.Dapper\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migration", "Migration", "{926B4CC2-5584-47DE-AA25-A79C00188F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Migrations", "Persistence.Migrations\Persistence.Migrations.csproj", "{8858F106-8250-4B7D-8207-7165A85BED0E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,10 +69,6 @@ Global
 		{4B2324AA-DAA0-4F2F-A89A-104265B4CF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2324AA-DAA0-4F2F-A89A-104265B4CF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2324AA-DAA0-4F2F-A89A-104265B4CF5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8858F106-8250-4B7D-8207-7165A85BED0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8858F106-8250-4B7D-8207-7165A85BED0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8858F106-8250-4B7D-8207-7165A85BED0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8858F106-8250-4B7D-8207-7165A85BED0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,7 +84,6 @@ Global
 		{1714CA1F-3C6A-408A-B0CF-6A564E986138} = {D8EFCFBB-B3ED-48F9-9EED-E05AAE84D16B}
 		{4B2324AA-DAA0-4F2F-A89A-104265B4CF5D} = {AD4B987A-AA02-42CB-922C-B87B6182A77A}
 		{926B4CC2-5584-47DE-AA25-A79C00188F58} = {FC254350-FAF4-4A7E-89D8-10285FAEBDBF}
-		{8858F106-8250-4B7D-8207-7165A85BED0E} = {926B4CC2-5584-47DE-AA25-A79C00188F58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8881794-C380-40CF-84FD-95347C5EB415}
