@@ -3,33 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonWebApp", "PersonWebApp\PersonWebApp.csproj", "{F2DD5CC4-5454-429A-B290-72C37F113DE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonWebApp", "PersonWebApp\PersonWebApp.csproj", "{F2DD5CC4-5454-429A-B290-72C37F113DE9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6D871EDC-6EE0-46A1-9F2F-97CB2C003374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Contract", "Services.Contract\Services.Contract.csproj", "{288D7150-4AA4-4B05-A39E-D6E53085782F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Contract", "Services.Contract\Services.Contract.csproj", "{288D7150-4AA4-4B05-A39E-D6E53085782F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D5D56677-3170-4E20-BA11-A35E1BEA41EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{D5D56677-3170-4E20-BA11-A35E1BEA41EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{D515EBF8-FFE4-4BD6-8D5B-8DD16C0903E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F975DA18-286B-4805-9711-43E350E24A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{F975DA18-286B-4805-9711-43E350E24A48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraStructure", "InfraStructure", "{FC254350-FAF4-4A7E-89D8-10285FAEBDBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{AD4B987A-AA02-42CB-922C-B87B6182A77A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCore", "LibCore\LibCore.csproj", "{9093FDBD-0F00-43A9-8578-9AA4BDFAD493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "LibCore\Core.csproj", "{9093FDBD-0F00-43A9-8578-9AA4BDFAD493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Config.DryIoc", "Core.Config.DryIoc\Core.Config.DryIoc.csproj", "{3A35DB22-B1D7-4195-8C76-A7DDE2817191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Config.DryIoc", "Core.Config.DryIoc\Core.Config.DryIoc.csproj", "{3A35DB22-B1D7-4195-8C76-A7DDE2817191}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{D8EFCFBB-B3ED-48F9-9EED-E05AAE84D16B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Dapper", "Persistence.Dapper\Persistence.Dapper.csproj", "{1714CA1F-3C6A-408A-B0CF-6A564E986138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Dapper", "Persistence.Dapper\Persistence.Dapper.csproj", "{1714CA1F-3C6A-408A-B0CF-6A564E986138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Dapper", "Core.Dapper\Core.Dapper.csproj", "{4B2324AA-DAA0-4F2F-A89A-104265B4CF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Dapper", "Core.Dapper\Core.Dapper.csproj", "{4B2324AA-DAA0-4F2F-A89A-104265B4CF5D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migration", "Migration", "{926B4CC2-5584-47DE-AA25-A79C00188F58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationHost", "ApplicationHost", "{A8EAB0B5-29F7-4470-B221-C892B5F86F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{F2DD5CC4-5454-429A-B290-72C37F113DE9} = {A8EAB0B5-29F7-4470-B221-C892B5F86F32}
 		{288D7150-4AA4-4B05-A39E-D6E53085782F} = {6D871EDC-6EE0-46A1-9F2F-97CB2C003374}
 		{D5D56677-3170-4E20-BA11-A35E1BEA41EE} = {6D871EDC-6EE0-46A1-9F2F-97CB2C003374}
 		{F975DA18-286B-4805-9711-43E350E24A48} = {D515EBF8-FFE4-4BD6-8D5B-8DD16C0903E4}
